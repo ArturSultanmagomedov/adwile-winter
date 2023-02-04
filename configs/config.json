@@ -1,0 +1,42 @@
+{
+  "urls": [
+    {
+      "url": "https://ya.ru",
+      "checks": [
+        {
+          "name": "status_code",
+          "params": ["200"]
+        },
+        {
+          "name": "text",
+          "params": ["ok"]
+        }
+      ],
+      "min_checks_cnt": 2
+    },
+    {
+      "url": "https://vk.com",
+      "checks": [
+        {
+          "name": "status_code",
+          "params": ["200"]
+        }
+      ],
+      "min_checks_cnt": 1
+    },
+    {
+      "url": "https://mail.ru",
+      "checks": [
+        {
+          "name": "status_code",
+          "params": ["200"]
+        },
+        {
+          "name": "text",
+          "params": ["ok"]
+        }
+      ],
+      "min_checks_cnt": 1
+    }
+  ]
+}
