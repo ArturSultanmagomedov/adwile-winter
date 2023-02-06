@@ -4,11 +4,11 @@
       "url": "https://ya.ru",
       "checks": [
         {
-          "name": "status_code",
+          "type": "status_code",
           "params": ["200"]
         },
         {
-          "name": "text",
+          "type": "text",
           "params": ["ok"]
         }
       ],
@@ -18,7 +18,7 @@
       "url": "https://vk.com",
       "checks": [
         {
-          "name": "status_code",
+          "type": "status_code",
           "params": ["200"]
         }
       ],
@@ -28,11 +28,11 @@
       "url": "https://mail.ru",
       "checks": [
         {
-          "name": "status_code",
+          "type": "status_code",
           "params": ["200"]
         },
         {
-          "name": "text",
+          "type": "text",
           "params": ["ok"]
         }
       ],
